@@ -1,5 +1,5 @@
 module "vpc" {
-  source                = "./vendor/modules/vpc"
+  source                = "./vendor/modules"
   VPC_CIDR              = var.VPC_CIDR
   ENV                   = var.ENV
   AZ                    = var.AZ
@@ -9,7 +9,7 @@ module "vpc" {
   DEFAULT_VPC_CIDR      = var.DEFAULT_VPC_CIDR
   DEFAULT_VPC_RT        = var.DEFAULT_VPC_RT
 
-  
+
 }
 
 
