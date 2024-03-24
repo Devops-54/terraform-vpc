@@ -1,4 +1,4 @@
-module "vpc" {
+module "domain" {
   source                = "./vendor/modules/vpc"
   VPC_CIDR              = var.VPC_CIDR
   ENV                   = var.ENV
